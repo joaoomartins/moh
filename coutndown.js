@@ -19,7 +19,7 @@ var countDownDate = new Date("Dec 24, 2022 00:00:00").getTime();
 
       if (distance < 0) {
         clearInterval(x);
-        document.getElementById("demo").innerHTML = "SURPRESA!";
+        document.getElementById("demo").innerHTML = "SURPRESA! ";
         $("#prendaa").removeAttr("hidden", "hidden");
         $("#prendaa").click(function(){
           alert("Boa escolha....🤔")
